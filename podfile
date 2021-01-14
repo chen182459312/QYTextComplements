@@ -1,0 +1,6 @@
+target 'QYTextComplements' do
+  use_frameworks!
+  pod 'AFNetworking'
+  pod 'FMDB'
+end
+

@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5146BBA29EEB7D71E0C6147E /* Pods_QYTextComplements.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FAF2C932F5BE6F5C8040525 /* Pods_QYTextComplements.framework */; };
+		B3F3C4F525B0ACAB00C2893E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C4F425B0ACAB00C2893E /* AppDelegate.m */; };
+		B3F3C4F825B0ACAB00C2893E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C4F725B0ACAB00C2893E /* SceneDelegate.m */; };
+		B3F3C4FB25B0ACAB00C2893E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C4FA25B0ACAB00C2893E /* ViewController.m */; };
+		B3F3C4FE25B0ACAB00C2893E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F3C4FC25B0ACAB00C2893E /* Main.storyboard */; };
+		B3F3C50025B0ACAE00C2893E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3F3C4FF25B0ACAE00C2893E /* Assets.xcassets */; };
+		B3F3C50325B0ACAE00C2893E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3F3C50125B0ACAE00C2893E /* LaunchScreen.storyboard */; };
+		B3F3C50625B0ACAE00C2893E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C50525B0ACAE00C2893E /* main.m */; };
+		B3F3C51A25B0AD7100C2893E /* QYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C51325B0AD7100C2893E /* QYTableViewCell.m */; };
+		B3F3C51B25B0AD7100C2893E /* QYContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C51625B0AD7100C2893E /* QYContentView.m */; };
+		B3F3C51C25B0AD7100C2893E /* QYTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C51725B0AD7100C2893E /* QYTextField.m */; };
+		B3F3C52125B0AD7E00C2893E /* QYPresent.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C52025B0AD7E00C2893E /* QYPresent.m */; };
+		B3F3C52625B0AD8800C2893E /* QYNetWorking.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C52525B0AD8800C2893E /* QYNetWorking.m */; };
+		B3F3C52B25B0AD9B00C2893E /* QYDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C52A25B0AD9B00C2893E /* QYDataSource.m */; };
+		B3F3C53025B0ADA700C2893E /* QYDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C52F25B0ADA700C2893E /* QYDataManager.m */; };
+		B3F3C53525B0ADCA00C2893E /* NSString+ZZStringMD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F3C53325B0ADCA00C2893E /* NSString+ZZStringMD5.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1CCF67DFC805A5C79ACAA7DF /* Pods-QYTextComplements.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYTextComplements.release.xcconfig"; path = "Target Support Files/Pods-QYTextComplements/Pods-QYTextComplements.release.xcconfig"; sourceTree = "<group>"; };
+		8FAF2C932F5BE6F5C8040525 /* Pods_QYTextComplements.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QYTextComplements.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F3C4F025B0ACAB00C2893E /* QYTextComplements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYTextComplements.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F3C4F325B0ACAB00C2893E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3F3C4F425B0ACAB00C2893E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3F3C4F625B0ACAB00C2893E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B3F3C4F725B0ACAB00C2893E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B3F3C4F925B0ACAB00C2893E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B3F3C4FA25B0ACAB00C2893E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B3F3C4FD25B0ACAB00C2893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3F3C4FF25B0ACAE00C2893E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3F3C50225B0ACAE00C2893E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B3F3C50425B0ACAE00C2893E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F3C50525B0ACAE00C2893E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3F3C51325B0AD7100C2893E /* QYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTableViewCell.m; sourceTree = "<group>"; };
+		B3F3C51425B0AD7100C2893E /* QYTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTextField.h; sourceTree = "<group>"; };
+		B3F3C51525B0AD7100C2893E /* QYUIDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYUIDefine.h; sourceTree = "<group>"; };
+		B3F3C51625B0AD7100C2893E /* QYContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYContentView.m; sourceTree = "<group>"; };
+		B3F3C51725B0AD7100C2893E /* QYTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYTextField.m; sourceTree = "<group>"; };
+		B3F3C51825B0AD7100C2893E /* QYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYTableViewCell.h; sourceTree = "<group>"; };
+		B3F3C51925B0AD7100C2893E /* QYContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYContentView.h; sourceTree = "<group>"; };
+		B3F3C51F25B0AD7E00C2893E /* QYPresent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYPresent.h; sourceTree = "<group>"; };
+		B3F3C52025B0AD7E00C2893E /* QYPresent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYPresent.m; sourceTree = "<group>"; };
+		B3F3C52425B0AD8800C2893E /* QYNetWorking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYNetWorking.h; sourceTree = "<group>"; };
+		B3F3C52525B0AD8800C2893E /* QYNetWorking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYNetWorking.m; sourceTree = "<group>"; };
+		B3F3C52925B0AD9B00C2893E /* QYDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataSource.h; sourceTree = "<group>"; };
+		B3F3C52A25B0AD9B00C2893E /* QYDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataSource.m; sourceTree = "<group>"; };
+		B3F3C52E25B0ADA700C2893E /* QYDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYDataManager.h; sourceTree = "<group>"; };
+		B3F3C52F25B0ADA700C2893E /* QYDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYDataManager.m; sourceTree = "<group>"; };
+		B3F3C53325B0ADCA00C2893E /* NSString+ZZStringMD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ZZStringMD5.m"; sourceTree = "<group>"; };
+		B3F3C53425B0ADCA00C2893E /* NSString+ZZStringMD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ZZStringMD5.h"; sourceTree = "<group>"; };
+		E06D4D7654DDCFD139BEC9C7 /* Pods-QYTextComplements.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QYTextComplements.debug.xcconfig"; path = "Target Support Files/Pods-QYTextComplements/Pods-QYTextComplements.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3F3C4ED25B0ACAB00C2893E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5146BBA29EEB7D71E0C6147E /* Pods_QYTextComplements.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B3F3C4E725B0ACAB00C2893E = {
+			isa = PBXGroup;
+			children = (
+				B3F3C4F225B0ACAB00C2893E /* QYTextComplements */,
+				B3F3C4F125B0ACAB00C2893E /* Products */,
+				B8ADFFE41B3319DAF5558B86 /* Pods */,
+				C0552E72E686F431C4CE1E97 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F3C4F125B0ACAB00C2893E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C4F025B0ACAB00C2893E /* QYTextComplements.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3F3C4F225B0ACAB00C2893E /* QYTextComplements */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C53225B0ADCA00C2893E /* Assistant */,
+				B3F3C52D25B0ADA700C2893E /* Database */,
+				B3F3C52825B0AD9B00C2893E /* DataSource */,
+				B3F3C52325B0AD8800C2893E /* NetWorking */,
+				B3F3C51E25B0AD7E00C2893E /* Present */,
+				B3F3C51225B0AD7100C2893E /* QYUIKit */,
+				B3F3C4F325B0ACAB00C2893E /* AppDelegate.h */,
+				B3F3C4F425B0ACAB00C2893E /* AppDelegate.m */,
+				B3F3C4F625B0ACAB00C2893E /* SceneDelegate.h */,
+				B3F3C4F725B0ACAB00C2893E /* SceneDelegate.m */,
+				B3F3C4F925B0ACAB00C2893E /* ViewController.h */,
+				B3F3C4FA25B0ACAB00C2893E /* ViewController.m */,
+				B3F3C4FC25B0ACAB00C2893E /* Main.storyboard */,
+				B3F3C4FF25B0ACAE00C2893E /* Assets.xcassets */,
+				B3F3C50125B0ACAE00C2893E /* LaunchScreen.storyboard */,
+				B3F3C50425B0ACAE00C2893E /* Info.plist */,
+				B3F3C50525B0ACAE00C2893E /* main.m */,
+			);
+			path = QYTextComplements;
+			sourceTree = "<group>";
+		};
+		B3F3C51225B0AD7100C2893E /* QYUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C51325B0AD7100C2893E /* QYTableViewCell.m */,
+				B3F3C51425B0AD7100C2893E /* QYTextField.h */,
+				B3F3C51525B0AD7100C2893E /* QYUIDefine.h */,
+				B3F3C51625B0AD7100C2893E /* QYContentView.m */,
+				B3F3C51725B0AD7100C2893E /* QYTextField.m */,
+				B3F3C51825B0AD7100C2893E /* QYTableViewCell.h */,
+				B3F3C51925B0AD7100C2893E /* QYContentView.h */,
+			);
+			path = QYUIKit;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3F3C51E25B0AD7E00C2893E /* Present */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C51F25B0AD7E00C2893E /* QYPresent.h */,
+				B3F3C52025B0AD7E00C2893E /* QYPresent.m */,
+			);
+			path = Present;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3F3C52325B0AD8800C2893E /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C52425B0AD8800C2893E /* QYNetWorking.h */,
+				B3F3C52525B0AD8800C2893E /* QYNetWorking.m */,
+			);
+			path = NetWorking;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3F3C52825B0AD9B00C2893E /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C52925B0AD9B00C2893E /* QYDataSource.h */,
+				B3F3C52A25B0AD9B00C2893E /* QYDataSource.m */,
+			);
+			path = DataSource;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3F3C52D25B0ADA700C2893E /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C52E25B0ADA700C2893E /* QYDataManager.h */,
+				B3F3C52F25B0ADA700C2893E /* QYDataManager.m */,
+			);
+			path = Database;
+			sourceTree = SOURCE_ROOT;
+		};
+		B3F3C53225B0ADCA00C2893E /* Assistant */ = {
+			isa = PBXGroup;
+			children = (
+				B3F3C53325B0ADCA00C2893E /* NSString+ZZStringMD5.m */,
+				B3F3C53425B0ADCA00C2893E /* NSString+ZZStringMD5.h */,
+			);
+			path = Assistant;
+			sourceTree = SOURCE_ROOT;
+		};
+		B8ADFFE41B3319DAF5558B86 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E06D4D7654DDCFD139BEC9C7 /* Pods-QYTextComplements.debug.xcconfig */,
+				1CCF67DFC805A5C79ACAA7DF /* Pods-QYTextComplements.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C0552E72E686F431C4CE1E97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FAF2C932F5BE6F5C8040525 /* Pods_QYTextComplements.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3F3C4EF25B0ACAB00C2893E /* QYTextComplements */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F3C50925B0ACAE00C2893E /* Build configuration list for PBXNativeTarget "QYTextComplements" */;
+			buildPhases = (
+				C1962C8E16F0D216BFD5BA0D /* [CP] Check Pods Manifest.lock */,
+				B3F3C4EC25B0ACAB00C2893E /* Sources */,
+				B3F3C4ED25B0ACAB00C2893E /* Frameworks */,
+				B3F3C4EE25B0ACAB00C2893E /* Resources */,
+				77C4268A89A969967037E026 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QYTextComplements;
+			productName = QYTextComplements;
+			productReference = B3F3C4F025B0ACAB00C2893E /* QYTextComplements.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3F3C4E825B0ACAB00C2893E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					B3F3C4EF25B0ACAB00C2893E = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = B3F3C4EB25B0ACAB00C2893E /* Build configuration list for PBXProject "QYTextComplements" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B3F3C4E725B0ACAB00C2893E;
+			productRefGroup = B3F3C4F125B0ACAB00C2893E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3F3C4EF25B0ACAB00C2893E /* QYTextComplements */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3F3C4EE25B0ACAB00C2893E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F3C50325B0ACAE00C2893E /* LaunchScreen.storyboard in Resources */,
+				B3F3C50025B0ACAE00C2893E /* Assets.xcassets in Resources */,
+				B3F3C4FE25B0ACAB00C2893E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77C4268A89A969967037E026 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYTextComplements/Pods-QYTextComplements-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QYTextComplements/Pods-QYTextComplements-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QYTextComplements/Pods-QYTextComplements-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1962C8E16F0D216BFD5BA0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QYTextComplements-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3F3C4EC25B0ACAB00C2893E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3F3C51C25B0AD7100C2893E /* QYTextField.m in Sources */,
+				B3F3C52125B0AD7E00C2893E /* QYPresent.m in Sources */,
+				B3F3C51B25B0AD7100C2893E /* QYContentView.m in Sources */,
+				B3F3C4FB25B0ACAB00C2893E /* ViewController.m in Sources */,
+				B3F3C4F525B0ACAB00C2893E /* AppDelegate.m in Sources */,
+				B3F3C50625B0ACAE00C2893E /* main.m in Sources */,
+				B3F3C52B25B0AD9B00C2893E /* QYDataSource.m in Sources */,
+				B3F3C52625B0AD8800C2893E /* QYNetWorking.m in Sources */,
+				B3F3C51A25B0AD7100C2893E /* QYTableViewCell.m in Sources */,
+				B3F3C53525B0ADCA00C2893E /* NSString+ZZStringMD5.m in Sources */,
+				B3F3C4F825B0ACAB00C2893E /* SceneDelegate.m in Sources */,
+				B3F3C53025B0ADA700C2893E /* QYDataManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B3F3C4FC25B0ACAB00C2893E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F3C4FD25B0ACAB00C2893E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B3F3C50125B0ACAE00C2893E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3F3C50225B0ACAE00C2893E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3F3C50725B0ACAE00C2893E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B3F3C50825B0ACAE00C2893E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3F3C50A25B0ACAE00C2893E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06D4D7654DDCFD139BEC9C7 /* Pods-QYTextComplements.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYTextComplements/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.com.QYTextComplements;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3F3C50B25B0ACAE00C2893E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CCF67DFC805A5C79ACAA7DF /* Pods-QYTextComplements.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QYTextComplements/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qingyun.com.QYTextComplements;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3F3C4EB25B0ACAB00C2893E /* Build configuration list for PBXProject "QYTextComplements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F3C50725B0ACAE00C2893E /* Debug */,
+				B3F3C50825B0ACAE00C2893E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3F3C50925B0ACAE00C2893E /* Build configuration list for PBXNativeTarget "QYTextComplements" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3F3C50A25B0ACAE00C2893E /* Debug */,
+				B3F3C50B25B0ACAE00C2893E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3F3C4E825B0ACAB00C2893E /* Project object */;
+}
